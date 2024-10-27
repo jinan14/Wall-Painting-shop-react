@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  @apply bg-gray-50 text-gray-800;
+  min-height: 100vh;
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+ 
+}
+.color-display {
+  transition: 0.25 ease;
+
+}
+.card {
+  background-image: url(/card-bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px); /* Slight upward movement */
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.hero-container {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px); /* Slight upward movement */
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.about-container {
+  animation: fadeIn 3s ease-in-out;
+}
