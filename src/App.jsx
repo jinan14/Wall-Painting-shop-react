@@ -5,8 +5,8 @@ import Paint from './Paint'
 import Header from './Header'
 import Hero from './Hero'
 import About from './About'
-import Pallete from './pallete'
-import Card from './card'
+import Pallete from './Pallete'
+import Card from './Card'
 
 function App() {
   const [count, setCount] = useState(0)
