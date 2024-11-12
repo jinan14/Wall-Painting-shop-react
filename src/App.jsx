@@ -14,7 +14,6 @@ function App() {
   return (
 
       <div>
-        {/* <Paint/> */}
         <Header/>
         <Hero/>
         <About/>
