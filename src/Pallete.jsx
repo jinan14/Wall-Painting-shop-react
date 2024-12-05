@@ -10,7 +10,7 @@ function Pallete() {
             <h1 className='m-12 text-4xl font-bold'>Customize Your Color </h1>
             <div className='flex h-[70%] w-full gap-9 items-center justify-center'>
                 <div>
-                    <img className='w-full h-full object-cover' src="public/png.png" alt="" />
+                    <img className='w-full h-full object-cover' src="/png.png" alt="" />
                 </div>
                 <p className='text-3xl'><ImArrowRight /></p>
                 <div>
